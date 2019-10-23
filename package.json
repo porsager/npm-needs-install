@@ -1,0 +1,10 @@
+{
+  "name": "npm-needs-install",
+  "version": "0.0.1",
+  "description": "A simple utility to do a fast check if npm install needs to be run",
+  "main": "index.js",
+  "bin": "npm-needs-install",
+  "author": "Rasmus Porsager <rasmus@porsager.com>",
+  "license": "WTFPL",
+  "repository": "porsager/npm-needs-install"
+}

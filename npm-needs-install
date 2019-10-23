@@ -1,0 +1,8 @@
+#! /usr/bin/env node
+
+const needsInstall = require('./index.js')
+
+if (needsInstall()) {
+  console.error('npm install needed')
+  process.exit(1)
+}
