@@ -1,8 +1,9 @@
 #! /usr/bin/env node
 
-const needsInstall = require('./index.js')
+const check = require('./index.js')
 
-if (needsInstall()) {
-  console.error('npm install needed')
+const status = check()
+if (status.name) {
+  console.error('npm install needed:', status.name, 'is', status.installed, 'but should be', status.needed)
   process.exit(1)
 }

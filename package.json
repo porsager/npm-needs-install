@@ -1,6 +1,6 @@
 {
   "name": "npm-needs-install",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple utility to do a fast check if npm install needs to be run",
   "main": "index.js",
   "bin": "npm-needs-install",
